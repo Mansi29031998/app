@@ -1,0 +1,15 @@
+import '@ocrv/vue-tailwind-pagination/styles'
+import VueTailwindPagination from '@ocrv/vue-tailwind-pagination'
+export default {
+    name: 'Pagination Example',
+    components: {
+        VueTailwindPagination,
+    },
+    data() {
+        return {
+            currentPage: 1,
+            perPage: 2,
+            total: 20
+        }
+    }
+}
